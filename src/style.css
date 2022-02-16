@@ -1,9 +1,7 @@
-/* stylelint-disable CssSyntaxError */
+
 /* styles go here */
 
 body {
-  /* margin: 0 auto;
-  width: 100vw; */
   box-sizing: border-box;
 }
 
@@ -11,12 +9,7 @@ fieldset {
   margin-top: 20px;
 }
 
-h1 {
-  text-align: center;
-}
-
 button {
-  text-align: center;
   margin: 20px 0;
 }
 
@@ -27,15 +20,6 @@ button {
 label {
   margin-top: 10px;
   display: block;
-
-}
-
-input:hover {
-  outline: 1px solid red;
-}
-
-input:focus {
-  outline: 2px solid lightgray;
 }
 
 .personal_info {
