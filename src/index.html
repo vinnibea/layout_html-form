@@ -13,9 +13,9 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-      <fieldset class="personal_info">
+      <fieldset class="info">
         <legend class="form_header">Personal information</legend>
-        <label for="surname" class="top">Surname:
+        <label for="surname">Surname:
           <input
             type="text"
             id="surname"
@@ -23,7 +23,7 @@
             autocomplete="off"
           >
         </label>
-        <label for="name">Name:
+        <label for="name" class="label_settings">Name:
           <input
             type="text"
             id="name"
@@ -31,7 +31,7 @@
             autocomplete="off"
           >
         </label>
-        <label for="years"> How old are You?
+        <label for="years" class="label_settings"> How old are You?
           <input
             type="number"
             id="years"
@@ -43,7 +43,7 @@
             required
           >
         </label>
-        <label for="birthday">
+        <label for="birthday" class="label_settings">
           Full date of birth:
           <input
             type="date"
@@ -52,7 +52,7 @@
             autocomplete="off"
           >
         </label>
-        <label for="agreement">I accept the term of the agreement
+        <label for="agreement" class="label_settings">I accept the term of the agreement
           <input
            type="checkbox"
             value="agreement"
@@ -63,9 +63,9 @@
           >
         </label>
       </fieldset>
-      <fieldset class="registration_data">
+      <fieldset class="info">
         <legend class="form_header">Registration</legend>
-        <label for="mail" class="top">E-mail:
+        <label for="mail" class="label_settings">E-mail:
           <input
             type="email"
             id="mail"
@@ -75,7 +75,7 @@
             required
           >
         </label>
-        <label for="pass">Password:
+        <label for="pass" class="label_settings">Password:
           <input
             type="password"
             id="pass"
@@ -87,7 +87,7 @@
           >
         </label>
       </fieldset>
-      <fieldset class="facts">
+      <fieldset class="info">
         <legend class="form_header">Interesting facts about you
         </legend>
         <label class="top"> Do you love cats?
@@ -100,7 +100,7 @@
              >
              Yes
           </label>
-          <label class="choose" for="no">
+          <label class="choose" for="no" >
             <input
               type="radio"
               id="no"
@@ -110,7 +110,7 @@
             No
           </label>
         </label>
-        <label for="favColor">What is your favorite color?
+        <label for="favColor" class="label_settings">What is your favorite color?
           <input
              type="color"
              id="favColor"
@@ -118,7 +118,7 @@
              value="#fff"
            >
         </label>
-        <label for="time">What time do you go to bed?
+        <label for="time" class="label_settings">What time do you go to bed?
           <input
              type="time"
              id="time"
@@ -126,14 +126,14 @@
              step="1"
           >
         </label>
-        <label for="cars">What are your favorite brand of cars?
+        <label for="cars" class="label_settings">What are your favorite brand of cars?
           <select name="cars" id="cars" multiple>
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
           </select>
         </label>
-        <label for="rate">How do you rate your work?
+        <label for="rate" class="label_settings">How do you rate your work?
           <input
             type="range"
             id="rate"
@@ -144,9 +144,9 @@
             >
         </label>
       </fieldset>
-      <fieldset class="facts">
+      <fieldset class="info">
         <legend class="form_header">Additional info:</legend>
-        <label for="comment" class="top">Comments:
+        <label for="comment" class="label_settings">Comments:
           <textarea
             id="comment"
             name="comment"
@@ -155,7 +155,7 @@
           >
           </textarea>
         </label>
-        <label for="final">Would you recommend us?
+        <label for="final" class="label_settings">Would you recommend us?
           <select name="answer" id="final" size="1">
             <option value="yes">Yes</option>
             <option value="no">No</option>

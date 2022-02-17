@@ -1,9 +1,18 @@
-body {
-  box-sizing: border-box;
+.info {
+  margin-top: 20px;
 }
 
-fieldset {
-  margin-top: 20px;
+.info:first-child {
+  margin-top: 0;
+}
+
+.label_settings {
+  margin-top: 10px;
+  display: block;
+}
+
+.label_settings:nth-child(2) {
+  margin-top: 0;
 }
 
 button {
@@ -12,18 +21,5 @@ button {
 
 .choose {
   display: inline-block;
-}
-
-label {
-  margin-top: 10px;
-  display: block;
-}
-
-.personal_info {
-  margin-top: 0;
-}
-
-.choose,
-.top {
   margin-top: 0;
 }
