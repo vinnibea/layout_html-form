@@ -1,1 +1,25 @@
-/* styles go here */
+.info {
+  margin-top: 20px;
+}
+
+.info:first-child {
+  margin-top: 0;
+}
+
+.label_settings {
+  margin-top: 10px;
+  display: block;
+}
+
+.label_settings:nth-child(2) {
+  margin-top: 0;
+}
+
+button {
+  margin: 20px 0;
+}
+
+.choose {
+  display: inline-block;
+  margin-top: 0;
+}
